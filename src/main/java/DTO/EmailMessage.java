@@ -1,4 +1,4 @@
-package conveyor;
+package DTO;
 
 public class EmailMessage {
       private String address;

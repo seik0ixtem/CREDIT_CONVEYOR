@@ -1,4 +1,4 @@
-package conveyor;
+package DTO;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

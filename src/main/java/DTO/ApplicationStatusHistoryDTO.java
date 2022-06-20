@@ -1,4 +1,4 @@
-package conveyor;
+package DTO;
 
 import java.time.LocalDateTime;
 

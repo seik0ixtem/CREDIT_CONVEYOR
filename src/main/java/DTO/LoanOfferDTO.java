@@ -1,15 +1,14 @@
-package conveyor;
+package DTO;
 
 import java.math.BigDecimal;
-import java.util.List;
 
-public class CreditDTO {
-    private BigDecimal amount;
+public class LoanOfferDTO {
+    private Long applicationId;
+    private BigDecimal requestedAmount;
+    private BigDecimal totalAmount;
     private Integer term;
     private BigDecimal monthlyPayment;
     private BigDecimal rate;
-    private BigDecimal psk;
     private Boolean isInsuranceEnabled;
     private Boolean isSalaryClient;
-    private List<PaymentScheduleElement> paymentSchedule;
 }

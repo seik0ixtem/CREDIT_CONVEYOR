@@ -1,4 +1,4 @@
-package com.example.CreditConveyor;
+package com.lizaapp.CreditConveyor;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
