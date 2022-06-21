@@ -4,14 +4,15 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class LoanApplicationRequestDTO {
-    private BigDecimal amount;
-    private Integer term;
-    private String firstName;
-    private String lastName;
-    private String middleName;
-    private String email;
-    private LocalDate birthdate;
-    private String passportSeries;
-    private String passportNumber;
+    public BigDecimal amount;
+    public Integer term;
+    public String firstName;
+    public String lastName;
+    public String middleName;
+    public String email;
+    //todo: fix
+    //public LocalDate birthdate;
+    public String passportSeries;
+    public String passportNumber;
 }
 
